@@ -17,172 +17,155 @@
 /* #Site Styles
 ================================================== */
 
-.imgWrapper{
+.imgWrapper {
 	border: 5px solid black;
-	margin-bottom: 20px;
+	margin-bottom: 3%;
 	box-shadow: 3px 3px 5px rgba(125, 125, 125, 0.6);
 }
-
-.imgWrapper img{
-	width:80%;
-	padding-left:27px;
+.imgWrapper img {
+	width: 80%;
+	padding-left: 27px;
 }
-
-.imgWrapper:hover{
-	box-shadow:4px 4px 7px rgba(50, 50, 50, 0.6);
+.imgWrapper:hover {
+	box-shadow: 4px 4px 7px rgba(50, 50, 50, 0.6);
 }
-
-
 /* #Page Styles
 ================================================== */
 
-#nav{
-	margin-top: 15px;
+#nav {
+	margin-top: 2%;
 }
-
-#nav li{
+#nav li {
 	display: inline;
-	margin-right: 30px;
+	margin-right: 3.5%;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	padding: 8px;
+	padding: 1%;
 }
-
-#nav li a{
+#nav li a {
 	text-decoration: none;
 }
-
-#nav li a:hover{
-	color:#666;
+#nav li a:hover {
+	color: #666;
 }
-
-.beach{
-	margin-top: 10px;
-	background:url(../images/beach.jpg) no-repeat center center;
+.beach {
+	margin-top: 1%;
+	background: url(../images/beach.jpg) no-repeat center center;
 	height: 470px;
 	border: 5px solid black;
 }
-
-.beach h1, .beach h4{
-	color:white; 
+.beach h1, .beach h4 {
+	color: white;
 	padding: 10px 0px 0px 10px;
 }
-
-#bio:target, #cv:target, #port:target{
+#bio:target, #cv:target, #port:target {
 	text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.77);
-	padding-left: 28px;
-	background:url(../images/target.png) no-repeat left center;
+	padding-left: 28px; /*Using pixel amount to nail down proper spacing between text and icon.*/
+	background: url(../images/target.png) no-repeat left center;
 }
 
 /* #Media Queries
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		.beach{
-			height: 300px;
-		}
-		
-		.beach h1, .beach h4{
-			color:#F4F4F4;
-		}
-		
-		#bio, #cv, #port{
-			font-size: 1.9em;
-			margin-bottom: -10px;
-		}
-		
-		#nav li{
-			margin-left: 145px;
-		}
-	
-	}
+.beach {
+	height: 300px;
+}
+.beach h1, .beach h4 {
+	color: #F4F4F4;
+}
+#bio, #cv, #port {
+	font-size: 1.9em;
+	margin-bottom: -10px;
+}
+#nav li {
+	margin-left: 19%;
+}
+}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		.beach{
-			margin: 0;
-			background:none;
-			height: auto;
-			border: none;
-		}
-
-		.beach h1, .beach h4{
-			color:black; 
-			padding: none;
-		}
-		.beach h4{
-			font-size:1.2em;
-		}
-		#bio, #cv, #port{
-			font-size: 1.9em;
-			margin-bottom: -10px;
-		}
-		
-	}
+.beach {
+	margin: 0;
+	background: none;
+	height: auto;
+	border: none;
+}
+.beach h1, .beach h4 {
+	color: black;
+	padding: none;
+}
+.beach h4 {
+	font-size: 1.2em;
+}
+#bio, #cv, #port {
+	font-size: 1.9em;
+	margin-bottom: -5%x;
+}
+}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		#nav{
-			margin-left: 10px;
-		}
-		#nav li{
-			background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
-			border:none;
-			border-radius: 5px;
-			padding: 10px;
-		}
-		#nav li a{
-			color: white;
-		}
-		#nav li a:hover{
-			color: white;
-		}
-			
-	}
+#nav {
+	margin-left: 2%;
+}
+#nav li {
+	background: linear-gradient(to bottom, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	border: none;
+	border-radius: 5px;
+	padding: 2%;
+}
+#nav li a {
+	color: white;
+}
+#nav li a:hover {
+	color: white;
+}
+}
 		
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#bio, #cv, #port{
-			font-size: 1.9em;
-			margin-bottom: -10px;
-		}
-		.beach{
-			margin: 0;
-			background:none;
-			height: auto;
-			border: none;
-		}
-
-		.beach h1, .beach h4{
-			color:black; 
-			padding: none;
-		}
-			
-		.beach h1{
-			font-size:2.8em;
-		}
-		#nav{
-			background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
-			padding: 10px;
-			border-radius: 5px;
-		}
-		#nav li{
-			border:none;
-			margin-left: 12px;
-		}
-		#nav li a{
-			color: white;
-		}
-		#nav li a:hover{
-			color: white;
-		}
-		
-		
-	}
+#bio, #cv, #port {
+	font-size: 1.9em;
+	margin-bottom: -5%;
+}
+.beach {
+	margin: 0;
+	background: none;
+	height: auto;
+	border: none;
+}
+.beach h1, .beach h4 {
+	color: black;
+	padding: none;
+}
+.beach h1 {
+	font-size: 2.8em;
+}
+#nav {
+	background: linear-gradient(to bottom, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	padding: 2%;
+	border-radius: 5px;
+}
+#nav li {
+	border: none;
+	margin-left: 5%;
+}
+#nav li a {
+	color: white;
+}
+#nav li a:hover {
+	color: white;
+}
+blockquote {
+	display: none;
+}
+}
 
 
 /* #Font-Face
