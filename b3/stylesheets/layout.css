@@ -143,6 +143,21 @@
 		.beach h1{
 			font-size:2.8em;
 		}
+		#nav{
+			background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+			padding: 10px;
+			border-radius: 5px;
+		}
+		#nav li{
+			border:none;
+			margin-left: 12px;
+		}
+		#nav li a{
+			color: white;
+		}
+		#nav li a:hover{
+			color: white;
+		}
 		
 		
 	}
