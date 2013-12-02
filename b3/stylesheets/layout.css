@@ -117,17 +117,39 @@
 		.beach h4{
 			font-size:1.2em;
 		}
+		#bio, #cv, #port{
+			font-size: 1.9em;
+			margin-bottom: -10px;
+		}
 		
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#nav{
+			margin-left: 10px;
+		}
+		#nav li{
+			background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+			border:none;
+			border-radius: 5px;
+			padding: 10px;
+		}
+		#nav li a{
+			color: white;
+		}
+		#nav li a:hover{
+			color: white;
+		}
 			
 	}
 		
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
+		#bio, #cv, #port{
+			font-size: 1.9em;
+			margin-bottom: -10px;
+		}
 		.beach{
 			margin: 0;
 			background:none;
