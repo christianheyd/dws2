@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Jumbotron Styles*/
+.beach{
+	background:url(../img/beach.jpg) no-repeat left bottom;
+	color:#FFF;
+}
+
+.beach h3{
+	margin-top: -15px;
+}
+
+
+
+/*Image Wrappers*/
+.imgWrapper {
+	border: 5px solid black;
+	margin-bottom: 3%;
+	box-shadow: 3px 3px 5px rgba(125, 125, 125, 0.6);
+}
+.imgWrapper img {
+	width: 80%;
+	padding-left: 27px;
+}
