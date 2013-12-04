@@ -1,33 +1,28 @@
 @charset "UTF-8";
-/* CSS Document */
-
 /*Page Styles*/
-body{
-	background:#e7e7e7;
+body {
+	background: #e7e7e7;
 }
-
-hr{
-	background:#FFF;
+hr {
+	background: #FFF;
 }
-
+.panel-footer p {
+	font-size: .8em;
+}
 /*Jumbotron Styles*/
-.beach{
-	background:url(../img/beach.jpg) no-repeat left bottom;
-	color:#FFF;
+.beach {
+	background: url(../img/beach.jpg) no-repeat left bottom;
+	color: #FFF;
 }
-
-.beach h3{
+.beach h3 {
 	margin-top: -15px;
 }
-
-
-
 /*Image Wrappers*/
 .imgWrapper {
 	border: 5px solid black;
 	margin-bottom: 3%;
 	box-shadow: 3px 3px 5px rgba(125, 125, 125, 0.6);
-	background:#FFF;
+	background: #FFF;
 }
 .imgWrapper img {
 	width: 80%;
