@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.imgWrapper{
+	border: 1px solid black;
+	margin-bottom: 3%;
+	box-shadow: 3px 3px 5px rgba(125, 125, 125, 0.6);
+	background: #FFF;
+	border-radius: 3px;
+}
+
+.imgWrapper img {
+	width: 80%;
+	padding-left: 28px;
+}
