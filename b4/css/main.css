@@ -2,11 +2,13 @@
 /* CSS Document */
 
 /*Page Styles*/
-
 body{
-	background:#EEE;
+	background:#e7e7e7;
 }
 
+hr{
+	background:#FFF;
+}
 
 /*Jumbotron Styles*/
 .beach{
