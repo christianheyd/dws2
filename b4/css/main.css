@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Page Styles*/
 body {
-	background: #e7e7e7;
+	background: linear-gradient(to bottom, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
 }
 hr {
 	background: #FFF;
