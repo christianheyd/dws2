@@ -42,9 +42,9 @@ p{
 }
 
 .imgWrapper{
-	width: 200px;
+	width: 180px;
 	border: 4px solid white;
-	margin-right: 5px;
+
 }
 .tabRow{
 	margin-top: 40px;
@@ -52,4 +52,8 @@ p{
 
 .nav-tabs li a{
 	color: black;
+}
+
+iframe{
+	margin-bottom: -60px;
 }
