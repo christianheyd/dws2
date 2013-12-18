@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:#666;
+}
+
+
+.breadcrumb{
+	background: rgba(204,204,204,.5);
+}
+
+.breadcrumb a{
+	color: black;
+}
+
+.breadcrumb .active{
+	color: white;
+}
+
+h1{
+	color: white;
+	text-shadow: -3px 2px 2px rgba(90, 90, 90, 0.7);
+}
+
+#mainImage{
+	width: 370px;
+	border: 4px solid #FFF;
+}
+
+p{
+	color: white;
+	font-size:0.9em;
+	line-height: 1.6em;
+}
+
+.well{
+	opacity:.8;
+}
+
+.well h3{
+	margin-top: -8px;
+}
+
+.imgWrapper{
+	width: 200px;
+	border: 4px solid white;
+	margin-right: 5px;
+}
+.tabRow{
+	margin-top: 40px;
+}
+
+.nav-tabs li a{
+	color: black;
+}

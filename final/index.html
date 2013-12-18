@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>B9 - Final</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+		<a class="navbar-brand" href="#">Beats and More</a> </div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Guitars and Basses</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Drums</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Keyboards and Pianos</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Pro Audio</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Store Locator</a></li>
+		</ul>
+		<form class="navbar-form navbar-right" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+	<!-- /.navbar-collapse --> 
+</nav>
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Guitars and Basses</a></li>
+		<li><a href="#">Electric Guitars</a></li>
+		<li><a href="#">Extended Range Guitars</a></li>
+		<li class="active">Mayones Regius Pro 8</li>
+	</ol>
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Mayones Regius Pro 8</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-4"> <a href="img/mayones.jpg" data-lightbox="guitar"><img id="mainImage" src="img/mayones.jpg"></a> </div>
+		<div class="col-xs-12 col-md-5">
+			<p>When even 7 strings are not enough to set your creativity loose from the depth of mind, a Regius 8 is the solution. Whether you seek ambient clean passages high up the strings or djent power from down under Regius 8 lets you express what you hide deep inside.</p>
+			<p>A Regius 8 sports a profiled Flamed Maple top on a Swamp Ash or optional Mahogany body and its highly recognizable 11-ply neck-thru laminate neck with baritone (687mm) scale.</p>
+			<p>Comes with EMG 808 or Seymour Duncan Blackouts 8 pickups, Sperzel Trimlock tuners, ABM fixed bridge with strings-thru-body and Schaller Security Straplocks.</p>
+			<p>Customer choice pickups available on demand at extra fee.</p>
+			<p>Dedicated hard case included. </p>
+		</div>
+		<div class="col-xs-12 col-md-3">
+			<div class="panel">
+			<div class="panel-body">
+			<h3>$1,800</h3>
+			<form>
+				<select>
+					<option>-- Please Select Option --</option>
+					<option>Transparent Black</option>
+					<option>Green Slime</option>
+					<option>Transparent Dirty Red</option>
+				</select>
+			</form>
+			<br>
+			<button type="button" class="btn btn-danger">Add to Cart</button>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Row -->
+	<div class="row">
+		<div class="col-xs-12"> <a href="img/headstock.jpg" data-lightbox="guitar" ><img class="imgWrapper" src="img/headstock.jpg"></a> <a href="img/headstock-front.jpg" data-lightbox="guitar"><img class="imgWrapper" src="img/headstock-front.jpg"></a> <a href="img/front-body.jpg" data-lightbox="guitar"><img class="imgWrapper" src="img/front-body.jpg"></a> <a href="img/back.jpg" data-lightbox="guitar"><img class="imgWrapper" src="img/back.jpg"></a> <a href="img/frets.jpg" data-lightbox="guitar"><img class="imgWrapper" src="img/frets.jpg"></a> <iframe width="560" height="315" src="//www.youtube.com/embed/PxOsX6qBud4" frameborder="0" allowfullscreen></iframe> </div>
+	</div>
+	<!-- End Row -->
+	<div class="row tabRow">
+		<div class="col-xs-12">
+			<ul class="nav nav-tabs nav-justified">
+				<li><a href="#specs" data-toggle="tab">Specifications</a></li>
+				<li><a href="#comment" data-toggle="tab">Comments</a></li>
+			</ul>
+		
+		<div class="tab-content">
+			<div class="tab-pane active" id="specs">
+				<table class="table">
+					<tr>
+						<th>Body</th>
+						<td>
+							<ul>
+								<li>Flamed Maple Top</li>
+								<li>Profiled Ash Body</li>
+								<li>Profiled Mahogany body (optional)</li>
+								<li>3-ply acrylic pearl binding</li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="table-striped">
+						<th>Construction</th>
+						<td>Neck-thru-body</td>
+					</tr>
+				</table>
+			</div>
+			<div class="tab-pane" id="comment"> 12345 </div>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- End Container --> 
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/modernizr.custom.js"></script> 
+<script src="js/lightbox-2.6.min.js"></script> 
+<script>
+$('#specs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#comment a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+</script>
+</body>
+</html>
